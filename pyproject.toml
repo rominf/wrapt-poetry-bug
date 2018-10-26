@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wrapt-poetry-bug"
+version = "0.1.0"
+description = "Project to show the bug in poetry"
+authors = ["Roman Inflianskas <infroma@gmail.com>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "*"
+wrapt = {git = "https://github.com/rominf/wrapt.git"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
